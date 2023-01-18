@@ -1,0 +1,4 @@
+name: Dynamic Theme
+description: Change theme dynamically using negotiator interface.
+type: module
+core_version_requirement: ^8 || ^9
