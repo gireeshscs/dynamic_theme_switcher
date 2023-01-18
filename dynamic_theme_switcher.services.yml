@@ -1,0 +1,5 @@
+services: 
+  dynamic_theme.theme.negotiator:
+       class: Drupal\dynamic_theme\Theme\ThemeNegotiator
+       tags:
+         - { name: theme_negotiator, priority: -20 }
